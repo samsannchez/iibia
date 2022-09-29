@@ -50,7 +50,7 @@
     // Testimonials carousel
     $(".testimonials-carousel").owlCarousel({
         center: true,
-        autoplay: true,
+        autoplay: fallse,
         dots: true,
         loop: true,
         responsive: {
