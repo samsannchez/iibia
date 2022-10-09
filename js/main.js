@@ -50,7 +50,7 @@
     // Testimonials carousel
     $(".testimonials-carousel").owlCarousel({
         center: true,
-        autoplay: fallse,
+        autoplay: false,
         dots: true,
         loop: true,
         responsive: {
@@ -124,3 +124,12 @@
     
 })(jQuery);
 
+
+    //Password para inventario
+    
+    function getInfo() {
+        var password = document.getElementById('password').value
+        if(password == "iibia2"){
+            location.replace("https://docs.google.com/spreadsheets/d/1s0Vor1lNJ58EDF8HaAHKPoTQCGK-6ukOa1nFRSwmVnk/edit?usp=sharing")
+        }
+    }
